@@ -1,4 +1,4 @@
-In Her Majestys Name
+In Her Majesty's Name
 ==================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/in-her-majestys-name.svg?style=flat-square)](https://github.com/BSData/in-her-majestys-name/releases/latest)
