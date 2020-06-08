@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6eae-8fb0-0338-06f8" name="Lord Curr&apos;s Company" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="45b9-b4e8-7f75-6479" gameSystemRevision="80" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="790d-b848-7459-23d4" name="Incorrigible" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="b171-3e70-48d4-9016" name="Incorrigible" publicationId="45b9-b4e8-pubN65574" hidden="false" typeId="4b9d-7d94-ac7b-f590" typeName="Member">
+          <characteristics>
+            <characteristic name="Pluck" typeId="a090-3910-2dc5-ec1d">5+</characteristic>
+            <characteristic name="Fight Value" typeId="f8c2-65f8-fd2b-3e4f">+1</characteristic>
+            <characteristic name="Shoot Value" typeId="a262-072e-b5a9-1820">+2</characteristic>
+            <characteristic name="Speed" typeId="6161-e369-5bb2-9ef4">0</characteristic>
+            <characteristic name="Abilities" typeId="1aec-8cea-9fea-b87b"/>
+            <characteristic name="Equipment" typeId="2bb6-45ce-d76a-fce6">Brigandine, Military Rifle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b891-69fa-e28d-0f6e" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="43e2-893e-54d9-d286" name="Weapon Options" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e7a-03b8-24de-464a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55c9-1264-85de-ea52" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="187f-af9b-a0a1-9919" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2e7a-03b8-24de-464a" name="Military Rifle" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="0102-a91f-75ee-15bc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f596-0eb7-d27a-867a" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a0-a5a8-0507-25c7" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3f58-b217-55a7-a78b" name="Shotgun" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="e1d9-1f47-f1f3-7ccc" type="selectionEntry">
+              <modifiers>
+                <modifier type="decrement" field="c90d-9ab8-a8f5-0509" value="4.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8dc-d79d-4041-f611" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-ca2a-5e74-4e28" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8abb-e250-a12b-a0ce" name="Brigandine" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="9c5e-28b4-6f66-6bf1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d54-acda-fa6e-44d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86b5-3bcf-08e6-6e1e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b85-5561-6de0-2dfc" name="Lady Felicity" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff53-9c00-7843-0958" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="526b-7c60-f20f-0003" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="33b3-393d-d824-3384" name="Lady Felicity" hidden="false" typeId="4b9d-7d94-ac7b-f590" typeName="Member">
+          <characteristics>
+            <characteristic name="Pluck" typeId="a090-3910-2dc5-ec1d">5+</characteristic>
+            <characteristic name="Fight Value" typeId="f8c2-65f8-fd2b-3e4f">0</characteristic>
+            <characteristic name="Shoot Value" typeId="a262-072e-b5a9-1820">+4</characteristic>
+            <characteristic name="Speed" typeId="6161-e369-5bb2-9ef4">0</characteristic>
+            <characteristic name="Abilities" typeId="1aec-8cea-9fea-b87b">Gunslinger</characteristic>
+            <characteristic name="Equipment" typeId="2bb6-45ce-d76a-fce6">2 Pistols, Magneto-static Waistcoat (in bodice)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="191e-4af8-3d5d-63e0" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6d86-6943-3b6e-2e44" name="Gunslinger" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="13a0-654e-9874-9deb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ef-6db7-5e73-7828" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec27-bdba-6a6f-21d1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b645-7c74-e71a-4d1c" name="Magneto-Static Waistcoat" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="f0fc-f8a5-dffe-ff9e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9340-f32c-7c82-5bc2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc11-c787-4194-6ef4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d362-c21b-bd5d-37a1" name="Pistol" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="4287-4fc4-4f92-ba73" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb63-3b4e-163d-1601" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b3-11aa-d840-2c4b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0daf-235e-5baf-7be2" name="Lord Curr" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a0-6925-51ef-af5b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c80-8ecc-55d3-9918" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="710c-fbd4-796e-0e57" name="Lord Curr" hidden="false" typeId="ee5e-f3d3-cbcc-fd97" typeName="Leader">
+          <characteristics>
+            <characteristic name="Pluck" typeId="f24f-8f8a-114c-c8e9">2+</characteristic>
+            <characteristic name="Fight Value" typeId="14d9-1fb1-9e18-6968">+3</characteristic>
+            <characteristic name="Shoot Value" typeId="821c-59f5-f4a1-a7db">+3</characteristic>
+            <characteristic name="Speed" typeId="8ee0-d2f2-fd4b-08ad">+1</characteristic>
+            <characteristic name="Abilities" typeId="d08b-1e2c-f56a-a4f4">Leadership +2, Fearless, Hunter, Tough</characteristic>
+            <characteristic name="Equipment" typeId="a2e9-7e7a-d862-15ec">Jack, Arc Rifle, Pistol, Bullwhip</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="315d-524f-a6ec-5f0e" name="New CategoryLink" hidden="false" targetId="f261-86bb-89eb-dfb7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c2fe-b850-b0d1-ae7c" name="Armour Options" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" defaultSelectionEntryId="e3b5-a5ad-8a5c-3192">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c531-53be-d8a4-cc0a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6770-c9d2-a150-e122" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e3b5-a5ad-8a5c-3192" name="Jack/Lined Coat" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b9b6-4a2d-285c-1047" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8378-1d03-678f-a5b6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e74c-30eb-91da-728d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="5f7d-ea69-f040-9bbb" name="Faraday Coat" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="41f7-0f06-f9ac-5880" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="c90d-9ab8-a8f5-0509" value="4.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b10-7b5d-3028-6f99" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d5-db10-93c0-83a3" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a5dc-529a-e63c-2117" name="Shooting Weapon Options" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" defaultSelectionEntryId="b3f3-4d44-b311-0e09">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="342f-b7a1-9b7a-8740" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f578-510f-2c35-21e6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3f3-4d44-b311-0e09" name="Arc Rifle" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b344-20f8-ea9c-aa95" type="selectionEntry"/>
+            <entryLink id="2a89-1ebb-7e10-29e7" name="Hunting Rifle" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="6c0d-e8f3-8e65-8547" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ede2-d9f4-e80f-8a1d" name="Bullwhip" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="8d83-137d-9667-f833" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0229-6904-2199-e12d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a625-e70d-ea0c-e9fe" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="df1c-a65f-cb48-388b" name="Fearless" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="f7b4-5682-5218-8518" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ff-eccb-a508-abb8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b6-aff5-ba83-68a0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ebc6-bdaa-e823-f613" name="Hunter" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="7c40-7e63-eb68-2b81" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59ea-38ac-59f5-50c7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="154b-391d-f556-9667" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e3e8-7f26-5f35-fdf6" name="Leadership" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="7be5-03fe-5509-6a4b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="860c-3fc1-bf67-ba74" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e54-ca8e-8874-1cae" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="72f9-6025-2724-b7cb" name="Pistol" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="4287-4fc4-4f92-ba73" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b4-38f4-3929-523d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1df5-0685-2799-d02e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cc40-0c13-887a-d72e" name="Tough" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="eaa5-53a4-ea84-89b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef5-9e0e-31a3-4ed1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eb1-1e11-4f7c-4e08" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="66.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f26e-a16e-b372-2428" name="Mad Mick McFarlane" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ba3-18d7-1c9d-99a0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d61e-a3c7-6152-0535" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="da3c-c446-9825-001b" name="Mad Mick McFarlane" publicationId="45b9-b4e8-pubN65574" hidden="false" typeId="4b9d-7d94-ac7b-f590" typeName="Member">
+          <characteristics>
+            <characteristic name="Pluck" typeId="a090-3910-2dc5-ec1d">5+</characteristic>
+            <characteristic name="Fight Value" typeId="f8c2-65f8-fd2b-3e4f">0</characteristic>
+            <characteristic name="Shoot Value" typeId="a262-072e-b5a9-1820">+2</characteristic>
+            <characteristic name="Speed" typeId="6161-e369-5bb2-9ef4">0</characteristic>
+            <characteristic name="Abilities" typeId="1aec-8cea-9fea-b87b">Engineer, Fanatic</characteristic>
+            <characteristic name="Equipment" typeId="2bb6-45ce-d76a-fce6">Jack, Arc Pistol, Grenades x3 (any type)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d93a-c87f-e76c-9c51" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="faf0-4921-3a26-8c62" name="Grenade Options" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="903f-c6b1-9d3b-403e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="12bc-3432-cb12-557c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0885-4122-c10b-67f9" name="Grenade" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="ac72-6918-310e-c591" type="selectionEntry"/>
+            <entryLink id="19e9-40f0-9e5d-945a" name="Gas Grenade" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="45c1-379b-b682-fed9" type="selectionEntry"/>
+            <entryLink id="5d1c-e98e-d4ce-0f79" name="Bottle Grenade" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="6cc4-f7e6-c26f-f4e2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1ed1-f8ee-970d-2745" name="Arc Pistol" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="f0b9-b671-9999-d71e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c563-53a1-48eb-4384" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a09a-233d-0190-d6c7" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9f1c-5a56-0695-4420" name="Engineer" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="9596-4e4e-bbc8-dac7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6142-e3e7-50b6-b4ac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c398-7abf-79e8-3e5a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c7c9-803d-ea05-6872" name="Fanatic" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="2b38-b17e-26b4-007e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b9e1-70b5-5b01-f524" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c75-d45f-3f90-493f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d459-817b-8f46-0a17" name="Jack/Lined Coat" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b9b6-4a2d-285c-1047" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d69-2bf5-71d6-7e4c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e3a-1504-25d0-4855" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2a0d-0eae-8a7d-2ed2" name="Arc Generator" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="e042-eebd-7fd5-94eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2c-90e9-8a54-42a9" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a8-a074-88b7-e294" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="20.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfdc-f6cc-8e63-40fe" name="Mohan Singh" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea48-1266-f139-4b87" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ca7-a8bf-b653-91b9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f619-3d21-14e5-19d4" name="Mohan Singh" hidden="false" typeId="4b9d-7d94-ac7b-f590" typeName="Member">
+          <characteristics>
+            <characteristic name="Pluck" typeId="a090-3910-2dc5-ec1d">4+</characteristic>
+            <characteristic name="Fight Value" typeId="f8c2-65f8-fd2b-3e4f">+3</characteristic>
+            <characteristic name="Shoot Value" typeId="a262-072e-b5a9-1820">+2</characteristic>
+            <characteristic name="Speed" typeId="6161-e369-5bb2-9ef4">+1</characteristic>
+            <characteristic name="Abilities" typeId="1aec-8cea-9fea-b87b">Strongman</characteristic>
+            <characteristic name="Equipment" typeId="2bb6-45ce-d76a-fce6">Jack, Machine Gun, Sword</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="afb1-ae12-f077-7bbc" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3778-cb09-5b93-0d3e" name="Jack/Lined Coat" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b9b6-4a2d-285c-1047" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1f-b217-124d-0f72" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f0-8174-aeb0-f18b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="120b-8c53-0bad-9b53" name="Machine Gun" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="89c0-4260-5449-2a64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb05-64c8-c93e-5c98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="407e-eb1e-18fa-c8f9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="40be-d6ca-954f-da27" name="Sabre/Sword" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="afa5-3ecb-17a0-72a2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f73d-2604-372c-c316" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed59-f64d-adf5-48ea" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="01af-9506-fcb7-bd1f" name="Strongman" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b046-868f-e38f-dea4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b21-d9ee-b9de-53e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c0-cf3d-12bf-d6c2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="47.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
