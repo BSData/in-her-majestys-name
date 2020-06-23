@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5920-769a-a458-02c6" name="US Marine Corps" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="45b9-b4e8-7f75-6479" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5920-769a-a458-02c6" name="US Marine Corps" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="45b9-b4e8-7f75-6479" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="704b-0f4c-aeac-7f1e" name="Captain" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -69,6 +69,29 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="35c6-072b-e5d3-08dd" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7339-934c-e558-324f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d4-4cb6-6fd1-be53" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="37b9-b099-4159-215b" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="14a6-e5a4-04a5-43ff" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5866-c8d8-228f-5043" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="daed-15ee-38ac-932f" name="Leadership" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="7be5-03fe-5509-6a4b" type="selectionEntry">
@@ -105,6 +128,33 @@
           </constraints>
           <costs>
             <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2927-2acf-b574-7b88" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c86a-a096-2bf8-c787" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2103-495c-8dba-ab4c" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="31ea-2654-3a3a-012b" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f86c-e944-40dd-30fa" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ddd-f0b0-8827-4c66" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="054e-dcd2-8794-5a46" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c188-35fc-a9dd-c9ff" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3105-7877-c21f-fa10" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -153,6 +203,29 @@
               </constraints>
               <costs>
                 <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3d30-d152-5494-7bf5" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eeb-23dc-6f86-ffc2" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7537-f366-a5f1-a7f9" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fb50-984e-020c-8ed2" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="130a-6c71-cbfe-1941" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4733-f8d2-5c91-948e" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -219,6 +292,60 @@
             <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
           </costs>
         </entryLink>
+        <entryLink id="330e-b26e-7565-3703" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e57-132d-813a-9946" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b18-0bb1-7389-3221" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="22c5-05de-1ed8-7a36" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d73-77c1-cc00-fdab" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f80-8458-cdad-6f59" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7bb6-0100-2dbf-b078" name="Iron Will" hidden="false" collective="false" import="true" targetId="254d-3e7f-82e9-4627" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68ec-e681-f5e0-9d88" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f3-8135-0803-52de" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4c90-5513-2973-6384" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd6c-94c3-ec75-d58e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74fa-4fe4-1dd0-51b7" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4969-2ba9-a57d-b6c8" name="Skirmisher" hidden="false" collective="false" import="true" targetId="3de1-e99d-ee31-4d69" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c33-eb87-9a0e-c28a" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8098-b3e0-b032-4344" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="37f9-fc07-1c09-bdd3" name="Grenadier" hidden="false" collective="false" import="true" targetId="6b96-ef0e-d19b-6060" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f322-18ac-3057-356d" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="776d-b4b7-890d-00dd" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="29.0"/>
@@ -265,6 +392,29 @@
               </constraints>
               <costs>
                 <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="39fe-d270-c4d4-3d25" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b606-51e1-22ab-c3a5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-3bac-3f17-e53e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c5c9-498a-9f9c-8587" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1be1-15cf-de7b-22dd" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2421-2d77-6007-08ca" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -325,6 +475,51 @@
             <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
           </costs>
         </entryLink>
+        <entryLink id="59c0-e1f6-8d45-5125" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b5-fbbd-5c22-6a76" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3af0-c05a-8b24-9553" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7696-b530-d193-9394" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8740-777c-6a8b-9e12" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee57-2c5d-4c0a-7c5a" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d197-ba90-a9e0-3946" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b656-65a3-a6b8-b0b5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1e-b5a6-db67-7af1" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="40b3-761d-64b1-79bc" name="Skirmisher" hidden="false" collective="false" import="true" targetId="3de1-e99d-ee31-4d69" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a5c-a83c-74db-cfe5" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae87-e183-8435-2a43" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="8ba1-9215-27b2-5f87" name="Grenadier" hidden="false" collective="false" import="true" targetId="6b96-ef0e-d19b-6060" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e06-60ac-1ece-768b" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf01-db5c-6318-ecc8" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="20.0"/>
@@ -346,6 +541,31 @@
       <categoryLinks>
         <categoryLink id="f4f5-197c-1dfa-4de3" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b9d6-98fc-33ad-0e91" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81aa-9884-2bbb-bb7b" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f6-6cdc-5196-6c3a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8dfd-1890-a2fb-d080" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f053-b1d1-f94e-9242" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ba58-d7f3-ff3f-7bf2" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1e65-f806-5d1a-e254" name="Pistol" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="4287-4fc4-4f92-ba73" type="selectionEntry">
           <constraints>
@@ -385,6 +605,33 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0db-b5d3-0004-2a56" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="b8c6-22e6-6e5b-78e3" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db7-2f1c-6280-e08f" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb51-5859-bee5-c9bb" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="bef9-e7b0-08e0-1f51" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f2-6747-56d5-ffaa" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="117f-8538-afb9-b6d4" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7dec-144e-39da-ad51" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34b7-3503-d1c2-1ac1" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c30-7d1c-f72a-43b0" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="13.0"/>
@@ -406,6 +653,31 @@
       <categoryLinks>
         <categoryLink id="b128-3522-035e-01cd" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="106e-722d-345b-6eed" name="Mount" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d9-9ef1-a626-b380" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c4e-c793-07de-20a0" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8f23-57b7-4a30-877d" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="1155-2922-b776-6679" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ab26-35f1-6ace-0bbf" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d431-0b73-e543-e628" name="Edison Beam Translator" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="3eee-68b6-a040-2884" type="selectionEntry">
           <constraints>
@@ -450,6 +722,42 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0185-6d3e-a91f-fa1a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cb-35f8-4c64-2e84" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="ec9e-122e-e97e-6e20" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0755-733b-a68e-b771" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="964a-25fa-acb3-5e81" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="f704-04fa-7e70-3419" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f101-6a6a-de7d-04c9" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2871-9aee-c573-667a" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="3283-29a8-bba4-2320" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd4-1266-5fee-41a2" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a73-f9f4-409e-7d3b" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="644f-5630-6ddf-5d7f" name="Skirmisher" hidden="false" collective="false" import="true" targetId="3de1-e99d-ee31-4d69" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d667-6304-2262-ce5b" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39dc-e4a1-ae45-f3eb" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -511,6 +819,29 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="996f-1bad-0363-ea91" name="Mount" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3360-effa-e466-458f" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d96-53fb-6e11-ecd9" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f789-06b2-f530-56ff" name="Camel" hidden="false" collective="false" import="true" targetId="9756-8886-992f-9669" type="selectionEntry">
+                  <costs>
+                    <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="7.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="3f29-6b71-f1a3-5792" name="Cavalry Horse" hidden="false" collective="false" import="true" targetId="9c83-4732-f34b-4bf1" type="selectionEntry">
+                  <costs>
+                    <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="9.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="b07e-b481-838b-edea" name="Desert Horse" hidden="false" collective="false" import="true" targetId="92fa-105f-b30c-e3c6" type="selectionEntry">
+                  <costs>
+                    <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="10.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="38de-3da3-bcbb-4fc7" name="Pistol" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="4287-4fc4-4f92-ba73" type="selectionEntry">
@@ -533,6 +864,51 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a00-529e-f08c-c796" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d573-9e02-76ff-43fb" type="min"/>
               </constraints>
+            </entryLink>
+            <entryLink id="2d08-61bb-c07e-e8a6" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05af-823a-73d7-edad" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e8f-2d07-827d-892f" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c9d3-0c38-a85c-09ba" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aab-cc33-9f31-3e40" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d9-ec57-f5ba-1b44" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8b84-f960-b0aa-08d7" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7647-eb96-175a-a957" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="745e-5c9b-c100-22ed" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fd78-6fda-cfd4-439a" name="Skirmisher" hidden="false" collective="false" import="true" targetId="3de1-e99d-ee31-4d69" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="873a-d03a-8d20-b3f2" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ab-9186-ef23-b397" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3fb7-0dfc-65af-5277" name="Grenadier" hidden="false" collective="false" import="true" targetId="6b96-ef0e-d19b-6060" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d4-f08e-a762-eafb" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d416-580d-b870-4670" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -610,6 +986,42 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="917b-64ca-5261-4d52" type="min"/>
               </constraints>
             </entryLink>
+            <entryLink id="7c05-5c4b-0580-27d9" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1427-1b1c-da2c-d879" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e5-6354-f3d0-8f8c" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cc27-2894-1c6f-932b" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0500-702d-2b04-46eb" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="908d-932b-525c-16db" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bd30-b049-9080-37a9" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ac-528d-0bfa-9e74" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3476-b5c2-8374-710f" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="602b-91c9-d54a-e3b3" name="Skirmisher" hidden="false" collective="false" import="true" targetId="3de1-e99d-ee31-4d69" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="841e-ca7a-d678-29cd" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f6-c346-560b-8eab" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="3.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="20.0"/>
@@ -632,4 +1044,142 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="bcea-7058-0ed6-4178" name="Light Field Gun" hidden="false" collective="false" import="true" targetId="2492-a5a7-3606-2fee" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f7-9d51-b36d-b87d" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74db-7016-5bb9-83ad" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="355c-49ad-1f98-057f" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="824e-6296-c8a6-e7c7" name="Marine" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dfe-828e-3d82-cf5e" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6207-c878-aeb7-1fb9" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="aa9d-d89d-8681-755e" name="Marine" publicationId="45b9-b4e8-pubN65574" hidden="false" typeId="4b9d-7d94-ac7b-f590" typeName="Member">
+              <characteristics>
+                <characteristic name="Pluck" typeId="a090-3910-2dc5-ec1d">5+</characteristic>
+                <characteristic name="Fight Value" typeId="f8c2-65f8-fd2b-3e4f">+2</characteristic>
+                <characteristic name="Shoot Value" typeId="a262-072e-b5a9-1820">+2</characteristic>
+                <characteristic name="Speed" typeId="6161-e369-5bb2-9ef4">0</characteristic>
+                <characteristic name="Abilities" typeId="1aec-8cea-9fea-b87b"/>
+                <characteristic name="Equipment" typeId="2bb6-45ce-d76a-fce6">Brigandine, Military Rifle, Bayonet</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="66c4-d806-df78-0b01" name="New CategoryLink" hidden="false" targetId="9ee3-9608-dcf9-8505" primary="true"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="5b77-2c89-f967-11ff" name="Brigandine" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="9c5e-28b4-6f66-6bf1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13b7-edd0-27ad-285e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="324a-a0b1-0c2c-d340" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1769-a5a5-0413-fe5d" name="Breath Preserver" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="dbe6-3ef2-5775-2743" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d91-d9a2-c78f-d767" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="897d-05e5-5040-dffb" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4217-51b4-b734-873b" name="Marksman" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="3068-6e01-dd33-049b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a26-6124-575a-deff" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872e-bf98-b868-3c64" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b339-b433-94e5-8a2a" name="Bayonet Drill" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="b71e-3b57-f995-0189" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9290-6c8a-57fc-59a5" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d71f-3dce-3a2e-fe97" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="814d-8205-59c9-37ea" name="Military Rifle" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="0102-a91f-75ee-15bc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dfc-ac81-db0f-a4e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34b-aa2a-f6db-f05e" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cde0-8691-7b18-ac01" name="Rifle with Bayonet" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="7509-17ce-9b39-c2c3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f35-d946-5943-1917" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aed3-5ee7-924e-f4b4" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8cdc-ba1b-df0d-fef5" name="Grenade" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" targetId="ac72-6918-310e-c591" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2808-014e-871a-aa3f" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7470-01d8-b7ea-c4c7" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6796-ff94-890f-35b1" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="990d-e3ed-8382-14e7" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27a-f04c-aea3-92c1" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7583-f923-b078-bfbb" name="Murton Maritime Life Preserver" hidden="false" collective="false" import="true" targetId="2e76-c9b7-4e03-d329" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ebe-3f42-b606-4e56" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a5a-309f-7e9b-b6f1" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8615-a6ea-cfa9-a004" name="Horse" hidden="false" collective="false" import="true" targetId="95b2-a1a6-9bb1-e7c0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac6f-ccc1-b0d4-5252" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="533b-4959-6733-212c" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="36ca-f11a-d490-46a7" name="Flare Pistol" hidden="false" collective="false" import="true" targetId="77b9-f05a-72d9-8980" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8b8-810f-a4f9-2e59" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f6f-57d5-e08b-d6f2" type="min"/>
+              </constraints>
+              <costs>
+                <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </entryLink>
+    <entryLink id="b18e-5e91-e036-2163" name="Armoured Steam Lorry" hidden="false" collective="false" import="true" targetId="41d9-2124-60f8-ee5b" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2373-4632-3cde-7790" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e6-8667-3cf3-f260" type="min"/>
+      </constraints>
+      <costs>
+        <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="26.0"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="61e4-ec62-9930-1ea0" name="BlackDragonTong" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="45b9-b4e8-7f75-6479" gameSystemRevision="79" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="61e4-ec62-9930-1ea0" name="BlackDragonTong" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="45b9-b4e8-7f75-6479" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="61e3-c24e-558b-aba6" name="Boxer" publicationId="45b9-b4e8-pubN65574" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -54,6 +54,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e2-1f23-4fde-4035" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="84d5-97bc-f7d9-c54d" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e46-ebe4-5a4c-c8ef" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7abc-99b1-96b1-902d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="11.0"/>
@@ -107,6 +116,33 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f2-5a99-ce83-d564" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf8d-3e09-b507-da2d" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="4f47-92c2-88bc-41e2" name="Lightning Draw" hidden="false" collective="false" import="true" targetId="818b-0fc5-04dc-dd75" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9932-1aa2-aa24-32e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfd-6b1a-01f3-7712" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="66dc-4a74-3410-ada2" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7792-b2b1-3b04-fb6f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="604f-807c-00ce-416d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="7301-7dd2-c178-c097" name="Fortitude" hidden="false" collective="false" import="true" targetId="4a1b-936f-b0f7-0834" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d6-9848-ff31-500c" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dae4-4ca5-8d25-fc4d" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -164,6 +200,33 @@
             <constraint field="c90d-9ab8-a8f5-0509" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b140-7417-b7e4-022a" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="1aaa-a28f-7364-436e" name="Lightning Draw" hidden="false" collective="false" import="true" targetId="818b-0fc5-04dc-dd75" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b528-c61b-3667-b16d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6160-b09b-3172-f13d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="a5d7-3ae3-3230-eb0f" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bea-4875-b698-1754" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9065-1b81-d29e-8add" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="c49e-0619-900e-d911" name="Fortitude" hidden="false" collective="false" import="true" targetId="4a1b-936f-b0f7-0834" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="373f-835f-c2c4-0141" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad7-c4e2-31d3-d315" type="min"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="5.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="35.0"/>
@@ -213,6 +276,15 @@
             <constraint field="c90d-9ab8-a8f5-0509" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1989-356a-5e9d-d112" type="max"/>
             <constraint field="c90d-9ab8-a8f5-0509" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd74-8b75-d495-f531" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="a6c2-de48-bb22-08c2" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1537-cae6-18c3-2c00" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f88c-c55e-de1d-703e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -305,6 +377,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="222c-5392-44ab-6a6f" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="629e-602f-8ce5-41e5" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f91-eeb4-fae8-0660" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1309-8474-2022-92ff" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="23.0"/>
@@ -377,6 +458,15 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e50-95d2-9e3a-15cd" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ecb2-cd75-ec9d-977e" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74b4-070f-6c58-f896" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e343-1b81-70bd-89b5" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="16.0"/>
@@ -407,6 +497,9 @@
           <infoLinks>
             <infoLink id="27da-4456-d0a9-bbf2" name="Brigandine" hidden="false" targetId="48a8-ea3f-7689-72b9" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="59a5-df83-a639-7e73" name="Talons" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -416,6 +509,9 @@
           <infoLinks>
             <infoLink id="be87-7ee2-a292-ef92" name="Combat or Fighting Knife" hidden="false" targetId="a5c9-2569-bfa3-dca5" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -431,10 +527,53 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b5d-12af-2646-9802" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ccc5-e246-aee6-8af6" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c1b-c502-6025-8461" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d906-d1e2-5b33-b909" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="45.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="7e18-6123-3f5a-8595" name="Demon" hidden="false" collective="false" import="true" targetId="319a-f6be-682a-e26c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="15e7-2082-805e-d15e" name="New CategoryLink" hidden="false" targetId="1394-05ff-ab5b-ccae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8f27-7a15-b858-5ec9" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5593-926c-0e35-e19f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d04-6eef-5f78-c6cd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="79dc-5d38-6fd2-0960" name="Lesser Demon" hidden="false" collective="false" import="true" targetId="dbf1-8a30-3163-7498" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5eb6-5c99-ef2f-8af5" name="New CategoryLink" hidden="false" targetId="1394-05ff-ab5b-ccae" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d62d-3cfb-e064-c3fb" name="Swimming" hidden="false" collective="false" import="true" targetId="b7d1-f282-136e-a532" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05a-c414-c585-83d7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4fd-f8e9-8fcf-845d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="c90d-9ab8-a8f5-0509" value="2.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
